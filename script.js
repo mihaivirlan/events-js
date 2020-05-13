@@ -44,10 +44,3 @@
 // };
 // //Second btn.onclick method overwrite first method - and that is a problem because often times we will need multiple listeners and we don't want only one handler!
 
-var btn = document.querySelector('button');
-btn.onclick = function() {
-    console.log('Button clicked');
-};
-btn.onclick = function() {
-    console.log('Also clicked');
-};
