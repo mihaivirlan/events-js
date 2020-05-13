@@ -67,3 +67,17 @@
 // function outerListener(event) {
 //     console.log('Clicked outer!');
 // }
+
+
+
+    //Changing Propagation Order
+var inner = document.querySelector('#inner');
+var outer = document.querySelector('#outer');
+inner.addEventListener('click', innerListener);
+outer.addEventListener('click', outerListener, true);
+function innerListener(event) {
+    console.log('Clicked inner!');
+};
+function outerListener(event) {
+    console.log('Clicked outer!');
+}
