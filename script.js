@@ -44,3 +44,38 @@
 // };
 // //Second btn.onclick method overwrite first method - and that is a problem because often times we will need multiple listeners and we don't want only one handler!
 
+
+
+    //Event Listeners
+// var btn = document.querySelector('button');
+// btn.addEventListener('click', listener1);
+// function listener1() {
+//     console.log('Listener1');
+// }
+// function listener2() {
+//     console.log('Listener2'); 
+// }
+
+// var btn = document.querySelector('button');
+// btn.addEventListener('click', listener1);
+// btn.addEventListener('click', listener2);
+// function listener1() {
+//     console.log('Listener1');
+// }
+// function listener2() {
+//     console.log('Listener2'); 
+// }
+
+// var btn = document.querySelector('button');
+// btn.addEventListener('click', listener1);
+// btn.addEventListener('click', listener2);
+// setTimeout(function() {
+//     btn.removeEventListener('click', listener1);
+// }, 2000);
+// function listener1() {
+//     console.log('Listener1');
+// }
+// function listener2() {
+//     console.log('Listener2'); 
+// }
+
